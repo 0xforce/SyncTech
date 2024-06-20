@@ -6,6 +6,7 @@ import { About } from "@/components/About";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
+import Contact from "@/components/Contact";
 
 import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
@@ -48,8 +49,8 @@ export default function Home() {
         preTitle="FAQ"
         title="Frequently Asked Questions"
       ></SectionTitle> */}
-
       <Cta />
+      <Contact />
     </Container>
   );
 }
